@@ -433,7 +433,6 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
 }
 
 .mg-lg {
@@ -675,7 +674,7 @@ a {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -736,11 +735,6 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-}
-
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
 }
 
 .avatar {

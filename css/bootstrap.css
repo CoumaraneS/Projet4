@@ -57,6 +57,7 @@ a {
 a:active,
 a:hover {
     outline: 0
+    
 }
 
 abbr[title] {
@@ -1547,7 +1548,7 @@ h6 small {
 h1,
 h2,
 h3 {
-    margin: 20px 20px 10px 20px
+    margin: 20px 15px 10px 15px
 }
 
 .h1 .small,
@@ -2065,7 +2066,8 @@ pre code {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+    padding-bottom: 15px
 }
 
 .col-xs-1,
