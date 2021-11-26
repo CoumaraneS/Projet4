@@ -695,6 +695,8 @@ a {
 .social {
     max-width: 350px;
     margin: auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
