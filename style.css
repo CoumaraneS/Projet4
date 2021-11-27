@@ -299,7 +299,7 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
-    margin: 0 5px 0 0;
+    margin: 20px 0 15px 0;
     display: inline;
 }
 
@@ -335,7 +335,7 @@ a:hover {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0px;
+    border: 0;
 }
 
 .navbar-toggle:hover {
@@ -356,6 +356,36 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.text-parle{
+    text-align: center;
+    padding-right: 90px;
+}
+
+.text-nous{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-right: 90px;
+}
+.text-foot{
+    text-align: center;
+    padding: 20px 90px 20px 20px;
+}
+.form-group{
+    max-width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 0 90px 0 10px;
+}
+.btn-envy{
+    text-align: center;
+    margin-right: 75px;
+}
+.text-adress{
+    text-align: center;
+    line-height: 1.5;
+    margin-right: 75px;
 }
 
 @media (min-width: 768px) {
@@ -390,7 +420,7 @@ a:hover {
         position: relative;
         width: 100%;
         right: 0;
-        margin-right: 0px;
+        margin-right: 0;
         margin-top: 20px;
     }
     .nav-center.mini-nav .navbar-toggle {
@@ -650,7 +680,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    width: 100%;
 }
 
 .hero-bloc-text {
@@ -713,7 +743,7 @@ h3 {
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
-    box-shadow: 0px 0px 0px #000000;
+    box-shadow: 0 0 0 #000000;
 }
 
 h1 {
@@ -738,7 +768,7 @@ h4 {
 }
 
 .avatar {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3);
 }
 
 .black-background {
@@ -825,6 +855,25 @@ h4 {
     .bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
         padding-right: 0;
+    }
+    .text-parle{
+        padding-right: 0;
+    }
+    
+    .text-nous{
+        padding-right: 0;
+    }
+    .text-foot{
+        padding-right: 0;
+    }
+    .form-group{
+        padding: 0 10px 0 10px;
+    }
+    .btn-envy{
+        margin-right: 0;
+    }
+    .text-adress{
+        margin-right: 0;
     }
 }
 
