@@ -358,36 +358,6 @@ a:hover {
     z-index: 2;
 }
 
-.text-parle{
-    text-align: center;
-    padding-right: 90px;
-}
-
-.text-nous{
-    text-align: center;
-    padding-bottom: 30px;
-    padding-right: 90px;
-}
-.text-foot{
-    text-align: center;
-    padding: 20px 90px 20px 20px;
-}
-.form-group{
-    max-width: 100%;
-    margin: 20px auto;
-    text-align: center;
-    padding: 0 90px 0 10px;
-}
-.btn-envy{
-    text-align: center;
-    margin-right: 75px;
-}
-.text-adress{
-    text-align: center;
-    line-height: 1.5;
-    margin-right: 75px;
-}
-
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -794,7 +764,7 @@ h4 {
 }
 
 .tc-white {
-    color: #ffffff!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
