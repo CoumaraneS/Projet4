@@ -357,6 +357,12 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+#drop{
+    background-color: #F3976C;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 8px;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
