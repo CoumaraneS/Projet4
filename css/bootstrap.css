@@ -1548,7 +1548,7 @@ h6 small {
 h1,
 h2,
 h3 {
-    margin: 20px 15px 10px 15px
+    margin: 0 15px 10px 15px
 }
 
 .h1 .small,
@@ -2011,8 +2011,7 @@ pre code {
 }
 
 .row {
-    margin-top: 25px;
-    margin-bottom: 15px
+    margin-top: 25px
 }
 
 .col-lg-1,
